@@ -1,0 +1,45 @@
+*{
+    font-family: "Roboto mono ", monospace;
+}
+.container-fluid{
+    width: 100vw;
+    
+}
+
+.pics  img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  
+}
+
+
+/* .pic-2  img{
+    width: 100%;
+   
+}
+.pic-3  img{
+    width: 100%;
+   
+} */
+.card img{
+    width: 300px;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: 1.5s; 
+    margin-bottom: 10px; 
+}
+
+.bgk{
+    background-color: black;
+}
+.headings-1 a{
+    font-size: 14px;
+}
+h1{
+    font-size: 5vw; 
+}
+.tex{
+    font-size: 1vw;
+}
